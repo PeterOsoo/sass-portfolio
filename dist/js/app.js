@@ -6,8 +6,6 @@ const navItems = document.querySelectorAll(".menu-nav__item")
 
 let showMenu = false
 
-menuBtn.addEventListener("click", toggleMenu)
-
 const toggleMenu = () => {
 	//if show menu is false
 	if (!showMenu) {
@@ -26,3 +24,5 @@ const toggleMenu = () => {
 		showMenu = false
 	}
 }
+
+menuBtn.addEventListener("click", toggleMenu)

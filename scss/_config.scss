@@ -1,6 +1,8 @@
 // partial 
-$primary-color:#272727;
-$secondary-color:#ff652f;
+
+
+$primary-color: #272727;
+$secondary-color: #ff652f;
 
 * {
     box-sizing: border-box;
@@ -18,7 +20,6 @@ $secondary-color:#ff652f;
     }
 
     @else {
-        @return#fff;
+        @return #fff;
     }
-
 }
